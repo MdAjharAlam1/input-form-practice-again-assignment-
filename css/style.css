@@ -1,0 +1,78 @@
+.myform{
+    width: 520px;
+    height: 445px;
+    background-image: -webkit-linear-gradient(top,#3a3a3a,#3b3b3b);
+    margin:150px auto;
+    border-radius: 5px;
+}
+.create_account{
+    height: 77px;
+    border-bottom: 1px solid #1c1c1c;
+    line-height: 77px;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px -2px 1px rgba(0,0, 0,0.5);
+    margin-bottom: 40px;
+}
+.box>input{
+    display: block;
+    width: 92%;
+    height: 35px;
+    background-image: -webkit-linear-gradient(top,#b6b6b6,#e4e4e4);
+    border-radius: 20px;
+    margin: 12px auto;
+    border: none;
+    padding-left: 43px;
+    box-shadow: 0px 1px 1px 1px,#7f7f7f;
+}
+.box >input:focus{
+    outline: none;
+}
+.term{
+    font-size: 1em !important;
+    color: #fff; 
+    float: left !important;
+}
+.box{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.term >a{
+    color: #6d7623;
+}
+.box > input:first-child{
+    background-image: url(../img/1.png),-webkit-linear-gradient(top,#b6b6b6,#e4e4e4);
+    background-repeat: no-repeat,repeat;
+    background-position: 10px center;
+}
+.box >input:nth-child(2){
+    background-image: url(../img/2.png),-webkit-linear-gradient(top,#b6b6b6,#e4e4e4);
+    background-repeat: no-repeat,repeat;
+    background-position: 10px center;
+}
+.box > input:nth-child(3){
+    background-image: url(../img/3.png),-webkit-linear-gradient(top,#b6b6b6,#e4e4e4);
+    background-repeat: no-repeat,repeat;
+    background-position: 10px center;
+}
+.box> input:nth-child(4){
+    background-image: url(../img/4.png),-webkit-linear-gradient(top,#b6b6b6,#e4e4e4);
+    background-repeat: no-repeat,repeat;
+    background-position: 10px center;
+}
+input[type="submit"]{
+    width: 250px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    float: right;
+    margin-right: 20px;
+    background-image: -webkit-linear-gradient(top,#909419,#717c00);
+    box-shadow: 0px -1px 0px #b4bd2c;
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 0px -2px 1px rgb(0,0,0,0.5);
+}
